@@ -1,0 +1,48 @@
+/*general*/
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*debug*/
+.debug .hparte1{
+    background-color: skyblue;
+    min-height: 70px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.debug .titoli {
+    background-color: blanchedalmond;
+    border: 2px dotted black;
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.debug .titolino{
+    min-width: 300px;
+    
+   
+}
+
+.debug .titolone{
+    min-width: 600px;
+    text-align: center;
+    
+}
+
+/*Header*/
+.login{
+    border-left: 3px dotted black;
+    
+}
+
+.logo{
+    border-right: 3px dotted black;
+    
+}
