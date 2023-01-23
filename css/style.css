@@ -64,14 +64,45 @@ body{
     justify-content: center;
 }
 
-.mb1{
-
+.debug .mb1{
+    border: 3px dotted black;
+    min-height:500px;
+    min-width: 600px;
+    background-color: cyan;
 }
 
-.mr1{
-
+.debug .mr1{
+    border: 3px dotted black;
+    min-height:500px;
+    min-width: 400px;
+    background-color: pink;
+}
+.debug .mb2{
+    border: 3px dotted black;
+    min-height:500px;
+    min-width: 600px;
+    background-color: pink;
 }
 
+.debug .mr2{
+    border: 3px dotted black;
+    min-height:500px;
+    min-width: 400px;
+    background-color: cyan;
+}
+.debug .mv1{
+    background-color: green;
+    min-height: 700px;
+    border: 3px dotted black;
+    min-width: 1000px;
+}
+.debug .main3{
+    background-color: lightgray;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*Header*/
 
 .login{
