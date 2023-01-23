@@ -1,10 +1,9 @@
 /*general*/
 body{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
 }
 
-/*debug*/
+/*debug header*/
 .debug .hparte1{
     background-color: skyblue;
     min-height: 70px;
@@ -47,6 +46,8 @@ body{
     border: 3px dotted black;
     min-width: 1000px;
 }
+
+/*debug main*/
 
 .debug .main1{
     background-color: white;
@@ -103,6 +104,68 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+/*debug footer*/
+
+.debug .f1{
+    background-color: #333333;
+}
+
+.debug .bordofooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+
+}
+
+.debug .creditsrosa{
+    border: 3px dotted black;
+    min-height:500px;
+    min-width: calc(1050px / 4);
+    background-color: pink;
+}
+
+.debug .creditsblu{
+    border: 2px dotted white;
+    min-height:500px;
+    min-width: calc(1050px / 6);
+    background-color: cyan;
+}
+
+
+.debug .f2{
+    background-color: #333333;
+    min-height: 100px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.debug .footerfinale{
+    display: flex;
+    justify-content:center;
+}
+
+.debug .contenitorefinale{
+    min-height:70px;
+    min-width: 1000px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.debug .bottone{
+    min-height: 30px;
+    min-width: auto;
+    background-color: pink;
+}
+ 
+.debug .logo2{
+    min-height: 30px;
+    min-width: auto;
+    background-color: pink;
+}
 /*Header*/
 
 .login{
@@ -115,3 +178,17 @@ body{
 }
 
 /*Main*/
+
+/*footer*/
+
+.bordofooter{
+    border-bottom: 2px solid white;;
+}
+
+.logo2{
+    border: 3px dotted black;
+}
+
+.bottone{
+    border: 3px dotted black;
+}
