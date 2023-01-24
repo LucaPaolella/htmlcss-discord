@@ -181,7 +181,7 @@ nav > a {
 }
 
 .debug .creditsrosa {
-    border: 3px dashed black;
+    /*border: 3px dashed black;*/
     min-height: 500px;
     min-width: calc(1050px / 4);
     /*background-color: pink;*/
@@ -190,7 +190,7 @@ nav > a {
 }
 
 .debug .creditsblu {
-    border: 2px dashed white;
+    /*border: 2px dashed white;*/
     min-height: 500px;
     min-width: calc(1050px / 6);
     /*background-color: cyan;*/
@@ -215,7 +215,7 @@ nav > a {
 .debug .contenitorefinale {
     min-height: 70px;
     min-width: 1000px;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,13 +224,17 @@ nav > a {
 .debug .bottone {
     min-height: 30px;
     min-width: auto;
-    background-color: pink;
+    /*background-color: pink;*/
 }
 
 .debug .logo2 {
     min-height: 30px;
-    min-width: auto;
-    background-color: pink;
+    min-width: 300px;
+    /*min-width: auto;*/
+    /*background-color: pink;*/
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    
 }
 
 /*Header*/
@@ -338,11 +342,12 @@ header {
 }
 
 .logo2 {
-    border: 3px dashed black;
+    /*border: 3px dashed black;*/
+    /*background-image: url(../img/logo.svg);*/
 }
 
 .bottone {
-    border: 3px dashed black;
+    /*border: 3px dashed black;*/
 }
 
 .slogan4{
@@ -381,4 +386,10 @@ ul{
 .elementolista{
     padding-top: 20px;
     color: white;
+}
+
+.bottone > .accedi{
+    background-color: royalblue;
+    color: white;
+    border: none;
 }
