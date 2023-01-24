@@ -1,6 +1,9 @@
 /*general*/
 body{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
 }
 
 /*debug header*/
@@ -175,6 +178,10 @@ body{
 
 .logo{
     border-right: 3px dotted black;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /*Main*/
