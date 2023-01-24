@@ -184,14 +184,18 @@ nav > a {
     border: 3px dashed black;
     min-height: 500px;
     min-width: calc(1050px / 4);
-    background-color: pink;
+    /*background-color: pink;*/
+    max-height: 500px;
+    max-width: calc(1050px / 4);
 }
 
 .debug .creditsblu {
     border: 2px dashed white;
     min-height: 500px;
     min-width: calc(1050px / 6);
-    background-color: cyan;
+    /*background-color: cyan;*/
+    max-height: 500px;
+    max-width: calc(1050px / 6);
 }
 
 
@@ -339,4 +343,42 @@ header {
 
 .bottone {
     border: 3px dashed black;
+}
+
+.slogan4{
+    font-size: 40px;
+    color: royalblue;
+}
+
+.ita{
+    height: 15px;
+}
+
+.itacontenitore:after{
+    content:'\02C5';
+}
+
+.itacontenitore{
+    color: white;
+}
+
+.fa-brands{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.capolista{
+    color: royalblue;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.elementolista{
+    padding-top: 20px;
+    color: white;
 }
