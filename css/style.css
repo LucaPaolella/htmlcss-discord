@@ -32,6 +32,10 @@ body {
 .debug .titolone {
     min-width: 600px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
 }
 
 .debug .hparte2 {
@@ -57,6 +61,11 @@ body {
     padding-top: 50px;
 }
 
+nav > a {
+    color: white;
+    padding:20px;
+    font-size: 20px;
+}
 
 /*debug main*/
 
@@ -112,18 +121,21 @@ body {
     max-height: 500px;
     max-width: 400px;
     /*background-color: cyan;*/
-
 }
 
 .debug .mv1 {
-    background-color: green;
+    /*background-color: green;*/
     min-height: 700px;
-    border: 3px dashed black;
+    /*border: 3px dashed black;*/
     min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .debug .main3 {
-    background-color: lightgray;
+    background-color: gainsboro;
     min-height: 800px;
     display: flex;
     align-items: center;
@@ -298,6 +310,22 @@ header {
     margin-right: 200px;
 }
 
+.imgmain {
+    width: 1000px;
+}
+.contenitoretestomainfinale{
+    width: 950px;    
+}
+
+.blu{
+    background-color: royalblue;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.slogan3{
+    background-image: url(../img/stars.svg);
+}
 /*footer*/
 
 .bordofooter {
