@@ -1,5 +1,5 @@
 /*general*/
-body{
+body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body{
 }
 
 /*debug header*/
-.debug .hparte1{
+.debug .hparte1 {
     /*background-color: skyblue;*/
     min-height: 70px;
     align-items: center;
@@ -25,16 +25,16 @@ body{
     justify-content: center;
 }
 
-.debug .titolino{
+.debug .titolino {
     min-width: 300px;
 }
 
-.debug .titolone{
+.debug .titolone {
     min-width: 600px;
     text-align: center;
 }
 
-.debug .hparte2{
+.debug .hparte2 {
     /*background-color: blue;*/
     min-height: 600px;
     display: flex;
@@ -43,14 +43,14 @@ body{
     /*border-bottom: 5px solid cyan;*/
 }
 
-.debug .controsa{
+.debug .controsa {
     /*background-color: plum;*/
     max-height: 500px;
     /*border: 3px dashed black;*/
     max-width: 1000px;
 }
 
-.debug .slogan{
+.debug .slogan {
     text-align: center;
     color: white;
     font-size: 50px;
@@ -60,7 +60,7 @@ body{
 
 /*debug main*/
 
-.debug .main1{
+.debug .main1 {
     /*background-color: white;*/
     min-height: 600px;
     display: flex;
@@ -68,51 +68,61 @@ body{
     justify-content: center;
 }
 
-.debug .main2{
-    background-color: lightgray;
+.debug .main2 {
+    background-color: gainsboro;
     min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.debug .mb1{
+.debug .mb1 {
     /*border: 3px dashed black;*/
-    min-height:500px;
+    min-height: 500px;
     min-width: 600px;
     /*background-color: cyan;*/
     background-image: url(../img/item1.svg);
     background-repeat: no-repeat;
 }
 
-.debug .mr1{
+.debug .mr1 {
     /*border: 3px dashed black;*/
-    max-height:500px;
+    max-height: 500px;
     max-width: 400px;
-    min-height:500px;
+    min-height: 500px;
     min-width: 400px;
     /*background-color: pink;*/
 }
-.debug .mb2{
-    border: 3px dashed black;
-    min-height:500px;
+
+.debug .mb2 {
+    /*border: 3px dashed black;*/
+    min-height: 500px;
     min-width: 600px;
-    background-color: pink;
+    /*background-color: pink;*/
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 30px;
 }
 
-.debug .mr2{
-    border: 3px dashed black;
-    min-height:500px;
+.debug .mr2 {
+    /*border: 3px dashed black;*/
+    min-height: 500px;
     min-width: 400px;
-    background-color: cyan;
+    max-height: 500px;
+    max-width: 400px;
+    /*background-color: cyan;*/
+
 }
-.debug .mv1{
+
+.debug .mv1 {
     background-color: green;
     min-height: 700px;
     border: 3px dashed black;
     min-width: 1000px;
 }
-.debug .main3{
+
+.debug .main3 {
     background-color: lightgray;
     min-height: 800px;
     display: flex;
@@ -120,19 +130,37 @@ body{
     justify-content: center;
 }
 
-.debug .slogan2{
+.debug .slogan2 {
     font-size: 50px;
     padding-top: 50px;
+}
+
+.debug .mb3 {
+    /*border: 3px dashed black;*/
+    min-height: 500px;
+    min-width: 600px;
+    /*background-color: cyan;*/
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+}
+
+.debug .mr3 {
+    /*border: 3px dashed black;*/
+    max-height: 500px;
+    max-width: 400px;
+    min-height: 500px;
+    min-width: 400px;
+    /*background-color: pink;*/
 }
 
 
 /*debug footer*/
 
-.debug .f1{
+.debug .f1 {
     background-color: #333333;
 }
 
-.debug .bordofooter{
+.debug .bordofooter {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,61 +168,63 @@ body{
 
 }
 
-.debug .creditsrosa{
+.debug .creditsrosa {
     border: 3px dashed black;
-    min-height:500px;
+    min-height: 500px;
     min-width: calc(1050px / 4);
     background-color: pink;
 }
 
-.debug .creditsblu{
+.debug .creditsblu {
     border: 2px dashed white;
-    min-height:500px;
+    min-height: 500px;
     min-width: calc(1050px / 6);
     background-color: cyan;
 }
 
 
-.debug .f2{
+.debug .f2 {
     background-color: #333333;
     min-height: 100px;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: center;
 }
 
-.debug .footerfinale{
+.debug .footerfinale {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
-.debug .contenitorefinale{
-    min-height:70px;
+.debug .contenitorefinale {
+    min-height: 70px;
     min-width: 1000px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.debug .bottone{
+
+.debug .bottone {
     min-height: 30px;
     min-width: auto;
     background-color: pink;
 }
- 
-.debug .logo2{
+
+.debug .logo2 {
     min-height: 30px;
     min-width: auto;
     background-color: pink;
 }
+
 /*Header*/
 
-.login{
+.login {
     /*border-left: 3px dashed black;*/
     text-align: right;
 }
 
-.logo{
+.logo {
     /*border-right: 3px dashed black;*/
 }
 
@@ -202,12 +232,12 @@ ul {
     list-style-type: none;
 }
 
-ul > a{
+ul>a {
     padding-right: 20px;
     color: white;
 }
 
-.accedi{
+.accedi {
     border-radius: 40%;
     background-color: white;
     font-size: 15px;
@@ -215,12 +245,12 @@ ul > a{
     width: 100px;
 }
 
-header{
+header {
     background-image: url(../img/jumbo.png);
     background-size: 100%;
 }
 
-.testoheader{
+.testoheader {
     color: white;
     font-size: 23px;
     padding-left: 100px;
@@ -228,7 +258,7 @@ header{
     text-align: center;
 }
 
-.bottoneheader1{
+.bottoneheader1 {
     border-radius: 30%;
     font-size: 25px;
     background-color: white;
@@ -237,7 +267,7 @@ header{
     margin-right: 20px;
 }
 
-.bottoneheader2{
+.bottoneheader2 {
     border-radius: 30%;
     font-size: 25px;
     background-color: black;
@@ -246,32 +276,39 @@ header{
     border: none;
 }
 
-.spaziobottoniheader{
+.spaziobottoniheader {
     text-align: center;
 }
 
-.freccina{
+.freccina {
     padding-right: 3px;
 }
+
 /*Main*/
 
-.testomain1{
+.testomain1 {
     font-size: 20px;
 }
 
-.mb1{
+.mb1 {
     margin-right: 200px;
 }
-/*footer*/
 
-.bordofooter{
-    border-bottom: 2px solid white;;
+.mb3 {
+    margin-right: 200px;
 }
 
-.logo2{
+/*footer*/
+
+.bordofooter {
+    border-bottom: 2px solid white;
+    ;
+}
+
+.logo2 {
     border: 3px dashed black;
 }
 
-.bottone{
+.bottone {
     border: 3px dashed black;
 }
